@@ -1,10 +1,4 @@
----
-layout: default
----
-[Proposal](./Proposal.html)
-
-[Midterm Report](./midterm.html)
-
+In accordance with Georgia Tech and CS 4641 academic integrity guidelines, this page is a copy from its original repository outside of GitHub Enterprise and without source code.
 # Final Report
 
 ## Introduction/Background
@@ -43,16 +37,16 @@ We will analyze our models' performance by examining their confusion matrices an
 
 ### k-Nearest Neighbors
 
-![knn confusion](https://github.gatech.edu/jmiller473/CS4641/assets/58497/6313432e-986c-4293-b768-0a9acfa0a48e)
-![knn accuracy](https://github.gatech.edu/jmiller473/CS4641/assets/58497/f32a71d7-1467-4d3e-b41a-0aabd6970f3e)
+![knn confusion](knn-confusion.png)
+![knn accuracy](knn-accuracy.png)
 
 ### Support Vector Machine
-![svm_confusion](https://github.gatech.edu/jmiller473/CS4641/assets/59826/7bcccf86-5260-478c-8aac-f712f6f750d9)
-![svm_cv](https://github.gatech.edu/jmiller473/CS4641/assets/59826/ee12a11c-d414-4f2c-b716-837d83db46b4)
+![svm_confusion](svm-confusion.png)
+![svm_cv](svm-accuracy.png)
 
 
 ### Multi Layer Perceptron
-![mlp_crossvalidation](https://github.gatech.edu/jmiller473/CS4641/assets/71166/8ba99ba2-9baa-4b82-9833-c1c9a8d61dfe)
+![mlp_crossvalidation](mlp-confusion.png)
 
 ## Analysis
 ### kNN:
@@ -89,15 +83,13 @@ We will analyze our models' performance by examining their confusion matrices an
 
 [3] A. Gramfort, M. Luessi, E. Larson, and D. Engemann, “MEG and EEG Data Analysis with MNE-Python,” _Frontiers in Neuroscience_, vol. 7, Dec. 2013. doi:10.3389/fnins.2013.00267 
 
-[4] R. Aarthi, V. Maadhesh, P. Rajalakshmi, and S. J. Thomas, “Alzheimer’s Disease Prediction using Machine Learning techniques with the help of Electroencephalogram Brain Signal,” 2024 15th International Conference on Computing Communication and Networking Technologies (ICCCNT). IEEE, pp. 1–6, Jun. 24, 2024. doi: 10.1109/icccnt61001.2024.10725703. 
+[4] R. Aarthi, V. Maadhesh, P. Rajalakshmi, and S. J. Thomas, “Alzheimer’s Disease Prediction using Machine Learning techniques with the help of Electroencephalogram Brain Signal,” 2024 15th International Conference on Computing Communication and Networking Technologies (ICCCNT). IEEE, pp. 1–6, Jun. 24, 2024. doi: 10.1109/icccnt61001.2024.10725703 
 
-[5] X. Zhang, Y. Wang, P. Chandak, and Z. He, “Deep Learning for EEG‐Based Alzheimer’s Disease Diagnosis,” Alzheimer’s & Dementia, vol. 19, no. S15. Wiley, Dec. 2023. doi: 10.1002/alz.071575. 
+[5] X. Zhang, Y. Wang, P. Chandak, and Z. He, “Deep Learning for EEG‐Based Alzheimer’s Disease Diagnosis,” Alzheimer’s & Dementia, vol. 19, no. S15. Wiley, Dec. 2023. doi: 10.1002/alz.071575 
 
-[6] Alzheimer's Association Report "2023 Alzheimer's disease facts and figures" Alzheimer's & Dementia, vol. 19, no S4. Wiley, Apr. 2023. https://doi.org/10.1002/alz.13016 
+[6] Alzheimer's Association Report "2023 Alzheimer's disease facts and figures" Alzheimer's & Dementia, vol. 19, no S4. Wiley, Apr. 2023. doi.org/10.1002/alz.13016
 
-[7] N. Isa, A. Amir, M.Z. Ilyas, and M.S. Razalli, "The Performance Analysis of K-Nearest Neighbors (K-NN) Algorithm for Motor Imagery Classification Based on EEG Signal," MATEC Web Conf., vol 140. 2017 International Conference on Emerging Electronic Solutions for IoT (ICEESI 2017). Dec. 2017. doi:10.1051/matecconf/201714001024.
-
-## [Link to Gantt Chart](https://docs.google.com/spreadsheets/d/15zJmUr_TPeMAYLTFTQhfP5esDtqI4vbIqjAXV6qFs9U/edit?usp=sharing)
+[7] N. Isa, A. Amir, M.Z. Ilyas, and M.S. Razalli, "The Performance Analysis of K-Nearest Neighbors (K-NN) Algorithm for Motor Imagery Classification Based on EEG Signal," MATEC Web Conf., vol 140. 2017 International Conference on Emerging Electronic Solutions for IoT (ICEESI 2017). Dec. 2017. doi:10.1051/matecconf/201714001024
 
 ## Contribution Table
 
@@ -108,10 +100,6 @@ We will analyze our models' performance by examining their confusion matrices an
 | Arnav Gonella          | Multilayer perceptron optimization, K-fold cross-validation
 | Hector Mur Lopez       | CNN, SVM, Report, Cross-Validation
 | Ishan Doma             | CNN initial test, multilayer perceptron w/ selected features, data normalization
-
-## Project award eligibility
-
-We would like to be considered.
 
 ###
 
